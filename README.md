@@ -1,2 +1,13 @@
-# packet-sniffer-analyzer
-A lightweight packet sniffer and protocol analyzer with support for HTTP, DNS, and TLS metadata parsing. Built to understand networking internals by decoding packet headers manually instead of relying on high-level libraries.
+Packet Sniffer & Analyzer
+
+A lightweight packet sniffer and protocol analyzer with support for HTTP, DNS, and TLS metadata parsing. The goal of this project is to understand networking internals by manually decoding packet headers instead of relying on high-level libraries.
+
+Objectives
+
+- Capture raw packets from the network interface
+- Decode Ethernet and IPv4 headers
+- Extract protocol information (TCP / UDP)
+- Later: parse HTTP, DNS, and TLS metadata
+- Build filtering and basic traffic statistics
+
+
