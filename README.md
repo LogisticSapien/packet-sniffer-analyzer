@@ -10,4 +10,13 @@ Objectives
 - Later: parse HTTP, DNS, and TLS metadata
 - Build filtering and basic traffic statistics
 
+Current Features
+- Raw packet capture (Linux AF_PACKET)
+- Ethernet frame parsing
+- IPv4 header parsing
+- TCP header parsing with ports and sequence numbers
+- UDP header parsing with port extraction
+- HTTP request line detection
+- DNS query extraction
+- TLS ClientHello SNI extraction
 
